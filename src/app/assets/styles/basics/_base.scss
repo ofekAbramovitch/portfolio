@@ -1,0 +1,60 @@
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+    text-align: center;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.App-logo {
+    height: 40vmin;
+}
+
+.App-header {
+    background-color: $appHeaderBG;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(0.625rem + 2vmin);
+    color: $textColorDark;
+}
+
+.App-link {
+    color: $appLink;
+}
+
+.subTitle {
+    color: $subTitle;
+}
+
+.dark-mode {
+    background-color: $darkBackground;
+    color: white;
+    transition: "0.1s";
+}
+
+@media (max-width: 1380px) {
+
+    html,
+    body {
+        font-size: rem;
+        line-height: normal;
+    }
+}
