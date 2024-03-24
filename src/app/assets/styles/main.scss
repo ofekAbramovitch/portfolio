@@ -3,7 +3,6 @@
 @import "setup/fonts";
 
 // Basics
-@import "basics/layout";
 @import "basics/base";
 
 // Components
@@ -16,3 +15,5 @@
 @import "cmps/software-skills";
 @import "cmps/splash-screen";
 @import "cmps/top-button";
+@import "cmps/header";
+@import "cmps/greeting";
