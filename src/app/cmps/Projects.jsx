@@ -1,6 +1,5 @@
 import React from "react"
-import "./StartupProjects.scss"
-import { bigProjects } from "../portfolio"
+import { projects } from "../portfolio"
 import { Fade } from "react-reveal"
 
 export default function Projects() {
@@ -12,21 +11,21 @@ export default function Projects() {
         win.focus()
     }
 
-    if (!bigProjects.display) {
+    if (!projects.display) {
         return null
     }
     return (
         <Fade bottom duration={1000} distance="20px">
             <div className="main" id="projects">
                 <div>
-                    <h1 className="skills-heading">{bigProjects.title}</h1>
+                    <h1 className="skills-heading">{projects.title}</h1>
                     <p
                         className="dark-mode project-subtitle">
-                        {bigProjects.subtitle}
+                        {projects.subtitle}
                     </p>
 
                     <div className="projects-container">
-                        {bigProjects.projects.map((project, i) => {
+                        {projects.projects.map((project, i) => {
                             return (
                                 <div
                                     key={i}

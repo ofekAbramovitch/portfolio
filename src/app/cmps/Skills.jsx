@@ -1,5 +1,4 @@
 import React from "react"
-import "./Skills.scss"
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill"
 import { illustration, skillsSection } from "../../portfolio"
 import { Fade } from "react-reveal"

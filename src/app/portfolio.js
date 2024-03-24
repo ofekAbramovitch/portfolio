@@ -60,7 +60,7 @@ const skillsSection = {
     display: true 
 }
 
-const bigProjects = {
+const projects = {
     title: "Projects",
     projects: [
         {
@@ -101,6 +101,6 @@ export {
     socialMediaLinks,
     splashScreen,
     skillsSection,
-    bigProjects,
+    projects,
     contactInfo,
 }

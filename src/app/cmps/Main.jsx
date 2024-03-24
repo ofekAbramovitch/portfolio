@@ -3,12 +3,11 @@
 import React, { useEffect, useState } from "react"
 import Greeting from "./Greeting"
 import Skills from "./Skills"
-import StartupProject from "./Projects"
-import ScrollToTopButton from "./topbutton/Top"
-import Profile from "./profile/Profile"
-import SplashScreen from "./splashScreen/SplashScreen"
+import Projects from "./Projects"
+import TopButton from "./TopButton"
+import Contact from "./Contact"
+import SplashScreen from "./SplashScreen"
 import { splashScreen } from "../portfolio"
-import "./Main.scss"
 import Header from "./Header"
 
 export default function Main() {
@@ -36,9 +35,9 @@ export default function Main() {
 					<Header />
 					<Greeting />
 					<Skills />
-					<StartupProject />
-					<Profile />
-					<ScrollToTopButton />
+					<Projects />
+					<Contact />
+					<TopButton />
 				</>
 			)}
 		</div>
