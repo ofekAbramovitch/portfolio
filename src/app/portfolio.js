@@ -64,7 +64,7 @@ const projects = {
     title: "Projects",
     projects: [
         {
-            image: require("../../public/img/airbnbLogo.png"),
+            image: require("../../public/airbnbLogo.png"),
             projectName: "Airbnb Clone",
             projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             footerLink: [
@@ -75,7 +75,7 @@ const projects = {
             ]
         },
         {
-            image: require("../../public/img/myday.png"),
+            image: require("../../public/myday.png"),
             projectName: "MyDay",
             projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             footerLink: [

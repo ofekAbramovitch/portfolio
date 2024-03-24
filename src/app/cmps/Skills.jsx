@@ -4,7 +4,7 @@ import { illustration, skillsSection } from "../portfolio"
 import { Fade } from "react-reveal"
 import codingPerson from "../assets/lottie/codingPerson.json"
 import DisplayLottie from "./DisplayLottie"
-import activity from "../assets/img/developerActivity.svg"
+import activity from "../../../public/developerActivity.svg"
 
 export default function Skills() {
     if (!skillsSection.display) {

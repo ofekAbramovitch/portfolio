@@ -6,7 +6,7 @@ import DisplayLottie from "./DisplayLottie"
 import SocialMedia from "./SocialMedia"
 import Button from "./Button"
 import { illustration, greeting } from "../portfolio"
-import manOnTable from "../assets/img/manOnTable.svg"
+import manOnTable from "../../../public/manOnTable.svg"
 
 export default function Greeting() {
     if (!greeting.displayGreeting) {
@@ -30,13 +30,6 @@ export default function Greeting() {
                             <SocialMedia />
                             <div className="button-greeting-div">
                                 <Button text="Contact me" href="#contact" />
-                                {greeting.resumeLink && (
-                                    <Button
-                                        text="See my resume"
-                                        newTab={true}
-                                        href={greeting.resumeLink}
-                                    />
-                                )}
                             </div>
                         </div>
                     </div>
