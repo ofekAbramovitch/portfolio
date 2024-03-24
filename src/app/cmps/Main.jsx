@@ -1,15 +1,15 @@
 'use client'
 
 import React, { useEffect, useState } from "react"
-import Header from "../components/header/Header"
-import Greeting from "./greeting/Greeting"
-import Skills from "./skills/Skills"
-import StartupProject from "./StartupProjects/StartupProject"
+import Greeting from "./Greeting"
+import Skills from "./Skills"
+import StartupProject from "./Projects"
 import ScrollToTopButton from "./topbutton/Top"
 import Profile from "./profile/Profile"
 import SplashScreen from "./splashScreen/SplashScreen"
 import { splashScreen } from "../portfolio"
 import "./Main.scss"
+import Header from "./Header"
 
 export default function Main() {
 	const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
