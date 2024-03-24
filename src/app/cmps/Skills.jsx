@@ -1,9 +1,10 @@
 import React from "react"
-import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill"
-import { illustration, skillsSection } from "../../portfolio"
+import SoftwareSkills from "./SoftwareSkills"
+import { illustration, skillsSection } from "../portfolio"
 import { Fade } from "react-reveal"
-import codingPerson from "../../assets/lottie/codingPerson"
-import DisplayLottie from "../../components/displayLottie/DisplayLottie"
+import codingPerson from "../assets/lottie/codingPerson.json"
+import DisplayLottie from "./DisplayLottie"
+import activity from "../assets/img/developerActivity.svg"
 
 export default function Skills() {
     if (!skillsSection.display) {
@@ -19,7 +20,7 @@ export default function Skills() {
                         ) : (
                             <img
                                 alt="Man Working"
-                                src={require("../../assets/images/developerActivity.svg")}
+                                src={activity}
                             ></img>
                         )}
                     </div>
@@ -33,7 +34,7 @@ export default function Skills() {
                             className="dark-mode subTitle skills-text-subtitle">
                             {skillsSection.subTitle}
                         </p>
-                        <SoftwareSkill />
+                        <SoftwareSkills />
                     </div>
                 </Fade>
             </div>

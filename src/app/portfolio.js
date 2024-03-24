@@ -4,7 +4,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"
 const splashScreen = {
     enabled: true,
     animation: splashAnimation,
-    duration: 2000 
+    duration: 2000
 }
 
 const illustration = {
@@ -57,14 +57,14 @@ const skillsSection = {
             fontAwesomeClassname: "fab fa-node"
         },
     ],
-    display: true 
+    display: true
 }
 
 const projects = {
     title: "Projects",
     projects: [
         {
-            image: require("./assets/images/airbnbLogo.png"),
+            image: require("./assets/img/airbnbLogo.png"),
             projectName: "Airbnb Clone",
             projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             footerLink: [
@@ -75,7 +75,7 @@ const projects = {
             ]
         },
         {
-            image: require("./assets/images/myday.png"),
+            image: require("./assets/img/myday.png"),
             projectName: "MyDay",
             projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             footerLink: [
@@ -86,7 +86,7 @@ const projects = {
             ]
         }
     ],
-    display: true 
+    display: true
 }
 
 const contactInfo = {

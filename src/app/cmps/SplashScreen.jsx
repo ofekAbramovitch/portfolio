@@ -1,5 +1,4 @@
 import React from "react"
-import "./SplashScreen.css"
 import DisplayLottie from "./DisplayLottie"
 import { greeting, splashScreen } from "../portfolio"
 

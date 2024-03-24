@@ -11,8 +11,7 @@ import { splashScreen } from "../portfolio"
 import Header from "./Header"
 
 export default function Main() {
-	const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
-		useState(true)
+	const [isShowingSplashAnimation, setIsShowingSplashAnimation] = useState(true)
 
 	useEffect(() => {
 		if (splashScreen.enabled) {
