@@ -1,5 +1,8 @@
 import React from "react"
 import { socialMediaLinks } from "../portfolio"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default function SocialMedia() {
     if (!socialMediaLinks.display) {
@@ -10,21 +13,21 @@ export default function SocialMedia() {
             {socialMediaLinks.github ? (
                 <a href={socialMediaLinks.github} className="icon-button github"
                     target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-github"></i>
+                    <FontAwesomeIcon icon={faGithub} />
                     <span></span>
                 </a>
             ) : null}
             {socialMediaLinks.linkedin ? (
                 <a href={socialMediaLinks.linkedin} className="icon-button linkedin"
                     target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-linkedin-in"></i>
+                    <FontAwesomeIcon icon={faLinkedinIn} />
                     <span></span>
                 </a>
             ) : null}
             {socialMediaLinks.gmail ? (
                 <a href={`mailto:${socialMediaLinks.gmail}`} className="icon-button google"
                     target="_blank" rel="noopener noreferrer">
-                    <i className="fas fa-envelope"></i>
+                    <FontAwesomeIcon className="mail" icon={faEnvelope} />
                     <span></span>
                 </a>
             ) : null}

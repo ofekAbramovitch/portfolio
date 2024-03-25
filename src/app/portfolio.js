@@ -34,27 +34,42 @@ const skillsSection = {
     softwareSkills: [
         {
             skillName: "html-5",
-            fontAwesomeClassname: "fab fa-html5"
         },
         {
             skillName: "css3",
-            fontAwesomeClassname: "fab fa-css3-alt"
         },
         {
             skillName: "sass",
-            fontAwesomeClassname: "fab fa-sass"
         },
         {
             skillName: "JavaScript",
-            fontAwesomeClassname: "fab fa-js"
         },
         {
             skillName: "reactjs",
-            fontAwesomeClassname: "fab fa-react"
         },
         {
             skillName: "nodejs",
-            fontAwesomeClassname: "fab fa-node"
+        },
+        {
+            skillName: "angular",
+        },
+        {
+            skillName: "mongodb",
+        },
+        {
+            skillName: "vuejs",
+        },
+        {
+            skillName: "typescript",
+        },
+        {
+            skillName: "expressjs",
+        },
+        {
+            skillName: "nestjs",
+        },
+        {
+            skillName: "redux",
         },
     ],
     display: true

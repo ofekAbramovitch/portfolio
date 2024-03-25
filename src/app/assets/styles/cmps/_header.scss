@@ -13,6 +13,8 @@
 
 .dark-menu li a:hover {
     background-color: $buttonColor !important;
+    transition: background-color 0.3s ease;
+    border-radius: 0.5rem;
 }
 
 .header {
