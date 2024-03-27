@@ -28,6 +28,9 @@
 
 .subTitle {
     color: $subTitle;
+    margin: 0;
+    font-size: 2rem;
+    line-height: 1.5;
 }
 
 @media (max-width: 1380px) {

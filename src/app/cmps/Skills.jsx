@@ -32,7 +32,7 @@ export default function Skills() {
                         </h1>
                         <p
                             className="dark-mode subTitle skills-text-subtitle">
-                            {skillsSection.subTitle}
+                            {skillsSection.subtitle}
                         </p>
                         <SoftwareSkills />
                     </div>

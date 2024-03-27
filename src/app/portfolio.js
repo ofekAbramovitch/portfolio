@@ -1,6 +1,9 @@
 import emoji from "react-easy-emoji"
 import splashAnimation from "./assets/lottie/splashAnimation"
 
+const airbnb = "/airbnb.jpg"
+const myday = "/myday.png"
+
 const splashScreen = {
     enabled: true,
     animation: splashAnimation,
@@ -16,7 +19,8 @@ const greeting = {
     title: "Hi, I'm Ofek",
     subTitle: emoji(
         `A Full Stack/Frontend developer with knowledge and experience in writing single 
-    page applications using the latest web technologies.`
+    page applications using the latest web technologies including React, Vue, Angular, Typescript,
+     Node.js, Express.js, MongoDB, SQL, etc.`
     ),
     displayGreeting: true
 }
@@ -30,7 +34,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
     title: "My skills",
-
+    subtitle: "Some of the technologies I use:",
     softwareSkills: [
         {
             skillName: "html-5",
@@ -79,25 +83,40 @@ const projects = {
     title: "Projects",
     projects: [
         {
-            image: require("../../public/airbnbLogo.png"),
+            image: airbnb,
             projectName: "Airbnb Clone",
-            projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            projectDesc: `This project is an Airbnb clone, where users can search for rental properties based on location and dates, 
+            view detailed information about each property, including photos, descriptions, reviews, and availability calendar,
+            book rental properties directly through the website by selecting available dates and submitting payment information and 
+            choose the location of the rental property on a map when looking for a property.`,
             footerLink: [
                 {
-                    name: "Visit Website",
+                    name: "Visit website",
                     url: "https://my-react-airbnb-clone.netlify.app/"
-                }
+                },
+                {
+                    name: "Visit repository",
+                    url: "https://github.com/ofekAbramovitch/airbnb-clone"
+                },
             ]
         },
         {
-            image: require("../../public/myday.png"),
+            image: myday,
             projectName: "MyDay",
-            projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            projectDesc: `Table-style task management board app inspired by Monday.com.
+            Manage projects and tasks using a table board. A board contains groups, lists and tasks. 
+            Usually each project is a board, and the groups and the tasks and titles to do in the project. 
+            Users can modify the board and change group and task locations using Drag and Drop.
+            Users can work together and watch live changes.`,
             footerLink: [
                 {
-                    name: "Visit Website",
+                    name: "Visit website",
                     url: "https://monday-8oy3.onrender.com/"
-                }
+                },
+                {
+                    name: "Visit repository",
+                    url: "https://github.com/idandavid1/My-Day"
+                },
             ]
         }
     ],

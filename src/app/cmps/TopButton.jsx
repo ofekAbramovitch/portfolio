@@ -1,4 +1,5 @@
 import React from "react"
+import { FaHandPointUp } from 'react-icons/fa'
 
 export default function TopButton() {
     function TopEvent() {
@@ -27,7 +28,7 @@ export default function TopButton() {
 
     return (
         <button onClick={TopEvent} id="topButton" title="Go to top">
-            <i className="fas fa-hand-point-up" aria-hidden="true"></i>
+            <FaHandPointUp aria-hidden="true" />
         </button>
     )
 }

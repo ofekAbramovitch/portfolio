@@ -26,9 +26,9 @@ export default function SoftwareSkill() {
                     {skillsSection.softwareSkills.map((skill, index) => {
                         const IconComponent = icons[skill.skillName]
                         return (
-                            <div key={index}>
+                            <li key={index}>
                                 {IconComponent && <IconComponent />}
-                            </div>
+                            </li>
                         )
                     })}
                 </ul>
