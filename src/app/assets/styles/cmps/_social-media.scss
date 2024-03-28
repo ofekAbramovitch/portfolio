@@ -10,7 +10,6 @@
     color: $textColorDark;
     border-radius: 2.6rem;
     cursor: pointer;
-    height: 2.6rem;
     margin: 0 5px;
     position: relative;
     text-align: center;
@@ -18,10 +17,13 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    width: 2.6rem;
     margin-bottom: 10px;
     transition: 0.2s ease-in;
     padding: 0.5rem;
+}
+
+.icon-button svg path {
+    width: 100%;
 }
 
 .linkedin svg {
@@ -45,5 +47,11 @@
 @media (max-width: 768px) {
     .social-media-div {
         text-align: center;
+    }
+}
+
+@media (max-width: 420px) {
+    .icon-button svg{
+        padding: 0.6rem;
     }
 }

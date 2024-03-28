@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" prefix="og: http://ogp.me/ns#">
       <Head>
         <link rel="icon" type="image/png" sizes="50x50" href="public/favicon.ico" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.4/css/all.min.css" />
