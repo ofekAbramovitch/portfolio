@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google"
+import './globals.css'
 import "./assets/styles/main.scss"
 import Head from "next/head"
 
