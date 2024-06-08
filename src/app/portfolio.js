@@ -92,7 +92,7 @@ const projects = {
             footerLink: [
                 {
                     name: "Visit website",
-                    url: "https://my-react-airbnb-clone.netlify.app/"
+                    url: "https://airbnb-clone-42xp.onrender.com/"
                 },
                 {
                     name: "Visit repository",
